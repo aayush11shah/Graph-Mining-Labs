@@ -14,7 +14,7 @@ using namespace std;
 vector<vector<int>> readEdges(){
 	//ifstream is an input stream to read data from input.csv file
 	ifstream fin;
-	fin.open("../graph-1.txt");
+	fin.open("../graph-2.txt");
 
 	if(fin.is_open()) cout<<"Started Reading File"<<endl;
 	else cout<<"Cannot open File"<<endl;
